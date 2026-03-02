@@ -1,3 +1,25 @@
 media: images
 content:
- - name:
+  - name: projets
+    label: Projets
+    type: collection
+    path: projets/
+    fields:
+      - name: projet
+        label: Projet
+        type: string
+      - name: description
+        label: Description
+        type: string
+      - name: année
+        label: Année
+        type: string
+      - name: lieu
+        label: Lieu
+        type: string
+      - name: image
+        label: Image
+        type: image
+      - name: phographe
+        label: Phographeur
+        type: string
