@@ -24,4 +24,3 @@ content:
       - name: phographe
         label: Phographeur
         type: string
-        list: true
