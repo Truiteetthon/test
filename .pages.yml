@@ -27,6 +27,7 @@ content:
       - name: block
         label: block
         type: block
+        list: true
         blocks:
         - name: image
           label: Image
