@@ -18,14 +18,8 @@ content:
         label: Lieu
         type: string
       - name: block
-        label: block
-        type: block
-        list: true
-        blockKey: _projets
-        blocks:
-        - name: image
-          label: Image
-          type: image
-        - name: phographe
-          label: Phographeur
-          type: string 
+      name: body
+  label: Body
+  type: code
+  options:
+    language: html
