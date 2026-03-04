@@ -28,6 +28,7 @@ content:
         label: block
         type: block
         list: true
+        blockKey: _projets
         blocks:
         - name: image
           label: Image
