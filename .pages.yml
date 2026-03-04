@@ -17,13 +17,6 @@ content:
       - name: lieu
         label: Lieu
         type: string
-      - name: image
-        label: Image
-        type: image
-        list: true
-      - name: phographe
-        label: Phographeur
-        type: string
       - name: block
         label: block
         type: block
