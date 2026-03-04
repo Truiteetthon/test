@@ -24,6 +24,8 @@ content:
       - name: phographe
         label: Phographeur
         type: string
+
+content:
 name: sections
   label: Page Sections
   type: block
