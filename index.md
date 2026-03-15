@@ -5,7 +5,7 @@ description: Un projet d'architecture dans les arbres
 année: "2022"
 lieu: Montréal
 image:
-  - /images/Capture d’ecran.png
+  - images/Capture d’ecran.png
 phographe: capture d'écran
 ---
 
