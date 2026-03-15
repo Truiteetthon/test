@@ -1,0 +1,22 @@
+---
+layout: head.vto
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My first page</title>
+
+  </head>
+  <body>
+      <ul>
+          {{ for image of sections }}
+          <li>
+            <img src="{{ image.url }}" alt="{{ image.content }}" />
+            <p>{{ image.content }}</p>
+          </li>
+          {{ /for }}
+        </ul>
+  </body>
+</html>
