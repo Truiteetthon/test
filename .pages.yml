@@ -10,7 +10,6 @@ content:
     type: collection
     path: projets/
     fields:
-      - name:
       - name: projet
         label: Projet
         type: string
