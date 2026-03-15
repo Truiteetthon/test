@@ -40,9 +40,6 @@ content:
               - name: photo
                 label: photo
                 type: image
-      - name: layout
-        label: Layout
-        type: string
 
   - name: listes
     label: listes
