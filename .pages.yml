@@ -17,9 +17,13 @@ content:
       - name: lieu
         label: Lieu
         type: string
-      - name: block
-      name: body
-  label: Body
-  type: code
-  options:
-    language: html
+      - name: photos
+        label: Photos
+        type: block
+        fields:
+          - name: photo
+            label: Photo
+            type: image
+          - name: caption
+            label: Caption
+            type: string
