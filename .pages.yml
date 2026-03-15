@@ -33,4 +33,7 @@ content:
       fields:
         - name: content
           label: Text Content
-          type: rich-text
+          type: string
+        - name: photo
+          label: photo
+          type: image
