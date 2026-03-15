@@ -34,3 +34,31 @@ content:
             - name: photo
               label: photo
               type: image
+
+  - name: listes
+    label: listes
+    type: collection
+    path: listes/
+    fields:
+      - name: type_de_pratique
+        label: Type de pratique
+        type: string
+      - name: liens
+        label: pratiques
+        type: block
+        list: true 
+        blockKey: type 
+        blocks:
+        - name: ajouter
+          label: nouvelle pratique
+          fields:
+            - name: pratique
+              label: nom de la pratique
+              type: string
+            - name: pays
+              label: origine
+              type: string
+            - name: liens
+              label: liens
+              type: string
+      
