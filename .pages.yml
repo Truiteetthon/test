@@ -43,9 +43,6 @@ content:
       - name: layout
         label: Layout
         type: string
-        options:
-          - name: layout.vto
-            label: Layout VTO
 
   - name: listes
     label: listes
