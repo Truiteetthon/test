@@ -9,8 +9,6 @@ content:
     label: Projets
     type: collection
     path: projets/
-    view:
-      layout: lavout.vto
     fields:
       - name:
       - name: projet
@@ -42,6 +40,12 @@ content:
               - name: photo
                 label: photo
                 type: image
+      - name: layout
+        label: Layout
+        type: string
+        options:
+          - name: layout.vto
+            label: Layout VTO
 
   - name: listes
     label: listes
