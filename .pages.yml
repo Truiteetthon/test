@@ -10,7 +10,7 @@ content:
     type: collection
     path: projets/
     view:
-      - layout: lavout.vto
+      layout: lavout.vto
     fields:
       - name:
       - name: projet
