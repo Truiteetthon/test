@@ -22,9 +22,12 @@ content:
         type: block
         list: true # Often used with type: block to allow multiple sections
         blocks:
-          - name: cover
-            label: Cover Image
-            type: image
-          - name: caption
-            label: Caption
-            type: string
+          - name: hero
+                label: Add Hero Section
+                component: hero
+          - name: text
+                label: Add Text Block
+                fields:
+                  - name: content
+                    label: Text Content
+                    type: rich-text
