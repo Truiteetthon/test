@@ -22,6 +22,12 @@ content:
       - name: lieu
         label: Lieu
         type: string
+      - name: layout
+        label: layout
+        type: select
+        hidden: true
+        options:
+          values: [ layout.vto ]
       - name: sections
         label: Page Sections
         type: block
