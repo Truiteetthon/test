@@ -1,11 +1,13 @@
 ---
 layout: layout.vto
-projet: arc
-description: Unouiiiure dans les arbres
-annee: "2022"
-lieu: Montr
-image: /images/Capture d’écran, le 2026-03-02 à 22.30.50.png
-phographe: capture
+projet: test
+sections:
+  - type: text
+    content: Nicolas Chaudier
+    image: /images/Capture d’écran, le 2026-03-14 à 18.56.39.png
+  - type: text
+    content: ahhh
+    image: /images/Capture d’écran, le 2026-03-14 à 19.33.53.png
 ---
 
 test 223
