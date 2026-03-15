@@ -20,9 +20,11 @@ content:
       - name: photos
         label: Photos
         type: block
-        fields:
-          - name: photo
-            label: Photo
+        list: true # Often used with type: block to allow multiple sections
+        blockKey: type # Optional: customize the key used to store the block name, defaults to `_blo
+        blocks:
+          - name: cover
+            label: Cover Image
             type: image
           - name: caption
             label: Caption
