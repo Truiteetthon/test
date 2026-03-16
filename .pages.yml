@@ -3,7 +3,6 @@ media:
     label: Images
     input: images
     output: /images
-    extensions: [png, webp]
 content:
   - name: projets
     label: Projets
