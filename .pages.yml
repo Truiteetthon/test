@@ -9,8 +9,8 @@ content:
     type: collection
     path: projets/
     fields:
-      - name: projet
-        label: Projet
+      - name: Titre
+        label: Titre
         type: string
       - name: description
         label: Description
