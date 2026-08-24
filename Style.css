@@ -2,29 +2,21 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-variant: normal;
     font-size: 12px;
-    background-color: black;
-    outline-color: #ffffff;
-    color: white;
-
+    background-color: white;
     background-size: cover;
-    text-shadow:
-        0.5px 0px 1px white,
-        -0.5px 0px 1px white,
-        0px 0.5px 1px white,
-        0px -1px 1px white;
 }
 
 body {
-    max-width: 200svw;
+    max-width: 800px;
+}
+h1 {
+    font-size: 24px;
+    font-weight: normal;
 }
 
 a {
     text-decoration: none;
-}
-
-a:hover {
-    cursor: pointer;
-    text-shadow: 0px -1px 1px rgb(0, 0, 255);
+    color: black;
 }
 
 hr {
@@ -45,57 +37,20 @@ ul {
 
 img {
     object-fit: scale-down;
-    width: calc(100% - 60px);
-    height: calc(90svh - 60px);
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    max-width: calc(100% - 60px);
+    max-height: calc(80svh - 60px);
 }
 
-.black {
-    display: block;
-    height: 20px;
-    border: 20px;
-    border-top: 20px solid #ffffff;
-    margin: 1em 0;
-    padding: 0;
-}
-
-.post-it {
+menu {
     position: fixed;
-    bottom: 10px;
-    left: 10px;
-    display: block;
-    height: 20px;
-    border: 20px;
-    background-color: lightyellow;
-}
-
-.hidden {
-    display: none;
+    padding-left: 0px;
 }
 
 .texteprincipal {
-    top: 10px;
-    width: calc(100% - 20px);
-    margin: 0px;
-    height: 50svh;
-    position: fixed;
+    font-size: 12px;
+    padding-right: 10px;
 }
 
-.navigation {
-    text-align: right;
-    right: 10px;
-    bottom: 10px;
-    position: absolute;
-}
-
-.navigation2 {
-    text-align: right;
-    right: 0px;
-    bottom: 0px;
-    position: absolute;
-}
 
 .liste {
     display: flex;
@@ -107,13 +62,6 @@ img {
     margin: 0%;
 }
 
-.enconstruction {
-    color: grey;
-}
-.enconstruction:hover {
-    font-weight: 400;
-    cursor: default;
-}
 .page {
     height: 90svh;
     max-width: 90svw;

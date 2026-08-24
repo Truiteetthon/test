@@ -10,7 +10,13 @@ layout: head.vto
     <LINK href="/Style.css" rel="stylesheet">
   </head>
   <body>
+       <br><br>
+      <H1>{{ Titre }}</H1>
+      <p>{{ date }}</p>
+      <p>{{ lieu }}</p>
+
       <ul>
+          <p>{{ content }}</p>
           {{ for image of sections }}
           <li>
             <img src="{{ image.photo }}" alt="{{ image.content }}" />
