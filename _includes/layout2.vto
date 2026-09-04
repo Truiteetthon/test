@@ -12,11 +12,11 @@ layout: head.vto
   <body>
        <br><br>
       <H1>{{ Titre }}</H1>
-      <p>{{ date }}</p>
+      <p>{{ annee }}</p>
       <p>{{ lieu }}</p>
-
+<br><br>
       <ul>
-          <p>{{ content }}</p>
+          <p>{{ description }}</p>
           {{ for image of sections }}
           <li>
             <img src="{{ image.photo }}" alt="{{ image.content }}" />
