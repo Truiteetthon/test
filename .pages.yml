@@ -14,7 +14,7 @@ content:
         type: string
       - name: description
         label: Description
-        type: string
+        type: text
       - name: année
         label: Année
         type: string
