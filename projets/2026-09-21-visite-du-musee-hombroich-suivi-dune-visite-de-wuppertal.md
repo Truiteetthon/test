@@ -15,6 +15,10 @@ sections:
   - type: text
     photo: /images/Hombroich/R1-06504-0008.jpg
   - type: text
+    photo: /images/Hombroich/doc06425820260921150123.jpg
+  - type: text
+    photo: /images/Hombroich/doc06425920260921150142.jpg
+  - type: text
     photo: /images/Hombroich/R1-06504-0005.jpg
   - type: text
     photo: /images/Hombroich/1000005116-2.jpg
@@ -24,8 +28,4 @@ sections:
     photo: /images/Hombroich/R1-06504-0001.jpg
   - type: text
     photo: /images/Hombroich/R1-06504-0003.jpg
-  - type: text
-    photo: /images/Hombroich/doc06425820260921150123.jpg
-  - type: text
-    photo: /images/Hombroich/doc06425920260921150142.jpg
 ---
