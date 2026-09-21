@@ -1,7 +1,7 @@
 ---
 Titre: Abbye in Belgium
 description: "Architecte : Dom Hans van der Laan"
-année: "2026"
+annee: "2026"
 lieu: Belgique
 layout: layout2.vto
 sections:
