@@ -13,6 +13,8 @@ sections:
   - type: text
     photo: /images/Abbye in Belgium/R1-07317-0018.jpg
   - type: text
+    content: Probablement l'un des éléments les plus connu du bâtiment. La lumière
+      entre par l'escalier et vient flatter le mur de brique enduit de chaux.
     photo: /images/Abbye in Belgium/R1-07317-0017.jpg
   - type: text
     photo: /images/Abbye in Belgium/R1-07317-0014.jpg
