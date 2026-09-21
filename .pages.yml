@@ -15,7 +15,7 @@ content:
       - name: description
         label: Description
         type: text
-      - name: année
+      - name: annee
         label: Année
         type: string
       - name: lieu
