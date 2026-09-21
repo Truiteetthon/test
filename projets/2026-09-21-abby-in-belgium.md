@@ -17,4 +17,8 @@ sections:
     photo: /images/Abbye in Belgium/R1-07317-0014.jpg
   - type: text
     photo: /images/Abbye in Belgium/R1-07317-0016.jpg
+  - type: text
+    photo: /images/Abbye in Belgium/R1-07317-0013-2.jpg
+  - type: text
+    photo: /images/Abbye in Belgium/R1-07317-0021.jpg
 ---
