@@ -14,7 +14,13 @@ content:
         type: string
       - name: description
         label: Description
-        type: text
+        type: rich-text
+        options:
+          format: html
+      - name: draft
+        label: brouillon
+        type: boolean
+        default: true
       - name: annee
         label: Année
         type: string
