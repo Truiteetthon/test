@@ -10,15 +10,19 @@
       <a class="texteprincipal" href="/index.html">
    <b id="home">remzcoolass</b>
       </a>
-      <a class="texteprincipal" href="/index.html">
-   <b id="home">listes</b>
-      </a>
-      <a class="texteprincipal" href="/index.html">
-   <b id="home">articles</b>
-      </a>
-      <a class="texteprincipal" href="/index.html">
-   <b id="home">contact</b>
-      </a>
+
+          {{ for projets of search.pages("category=listes").sort() }}
+          <b><a href="{{ projets.url }}">{{ projets.Titre }}</a></b>
+          {{ /for }}
+
+          {{ for projets of search.pages("category=articles").sort() }}
+          <b><a href="{{ projets.url }}">{{ projets.Titre }}</a></b>
+          {{ /for }}
+
+          {{ for projets of search.pages("category=info").sort() }}
+          <b><a href="{{ projets.url }}">{{ projets.Titre }}</a></b>
+          {{ /for }}
+
       </menu>
 
 {{ content }}

@@ -1,0 +1,30 @@
+---
+layout: head.vto
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My first page</title>
+    <LINK href="/Style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+      <br><br>
+<p>Projets que j'aime :</p>
+ {{ for projets of sections }}
+ <li>
+   <a href="/{{ projets.link }}">{{ projets.name }}</a>
+ </li>
+ {{ /for }}
+
+ <p>Pratiques spaciales que j'aime :</p>
+ {{ for projets of sections }}
+ <li>
+   <a href="/{{ projets.link }}">{{ projets.name }}</a>
+ </li>
+ {{ /for }}
+
+
+</body>

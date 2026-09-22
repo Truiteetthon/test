@@ -1,10 +1,9 @@
 ---
 layout: index.vto
+category: articles
 projet: Truite
-Titre: Mon blog personnel
+Titre: articles
 Date: "2022"
 lieu: Montréal
 
 ---
-
-Projets que j'aimes

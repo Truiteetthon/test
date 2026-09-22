@@ -10,6 +10,6 @@ site.add("Style.css");
 
 site.add("projets");
 
-site.add("projets");
+site.add("pages");
 
 export default site;

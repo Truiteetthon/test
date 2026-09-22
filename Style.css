@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    max-width: 800px;
+   width: calc(100vw-5px);
+
 }
 h1 {
     font-size: 24px;
@@ -29,7 +30,7 @@ hr {
 }
 
 li {
-    width: 70%;
+    width: 100%;
 }
 ul {
     list-style: none;
@@ -39,6 +40,7 @@ img {
     object-fit: scale-down;
     max-width: calc(100% - 60px);
     max-height: calc(80svh - 60px);
+
 }
 
 menu {

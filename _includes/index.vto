@@ -15,7 +15,7 @@ layout: head.vto
     <H1>{{ Titre }}</H1>
     <p>Articles:</p>
     <ul class="submenu">
-        {{ for projets of search.pages().sort() }}
+        {{ for projets of search.pages("category=article").sort() }}
         <li><a href="{{ projets.url }}">{{ projets.Titre }}</a></li>
         {{ /for }}
     </ul>
