@@ -12,17 +12,17 @@
       </a>
 
           {{ for projets of search.pages("category=listes").sort() }}
-          <b><a href="{{ projets.url }}">{{ projets.Titre }}</a></b>
+          <b><a class="texteprincipal" href="{{ projets.url }}">{{ projets.Titre }}</a></b>
           {{ /for }}
 
           {{ for projets of search.pages("category=articles").sort() }}
-          <b><a href="{{ projets.url }}">{{ projets.Titre }}</a></b>
+          <b><a class="texteprincipal" href="{{ projets.url }}">{{ projets.Titre }}</a></b>
           {{ /for }}
 
           {{ for projets of search.pages("category=info").sort() }}
-          <b><a href="{{ projets.url }}">{{ projets.Titre }}</a></b>
+          <b><a class="texteprincipal" href="{{ projets.url }}">{{ projets.Titre }}</a></b>
           {{ /for }}
-
+<hr style="width: calc(100vw-10px)">
       </menu>
 
 {{ content }}

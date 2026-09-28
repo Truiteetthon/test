@@ -1,5 +1,5 @@
 ---
-layout: home.vto
+layout: info.vto
 category: info
 projet: Truite
 Titre: info

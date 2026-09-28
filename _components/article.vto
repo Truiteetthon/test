@@ -1,0 +1,16 @@
+
+<br><br>
+
+<H1>{{ Titre }}</H1>
+
+<br><br>
+<ul>
+    <p>{{ description }}</p>
+    {{ for image of sections }}
+    <li>
+      <img src="{{ image.photo }}" alt="{{ image.content }}" />
+      <p>{{ image.content }}</p>
+    </li>
+    {{ /for }}
+  </ul>
+  <p>{{ annee }} - {{ lieu }}</p>

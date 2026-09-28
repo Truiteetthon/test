@@ -1,5 +1,5 @@
 ---
-layout: index.vto
+layout: home.vto
 projet: Truite
 Titre: Mon blog personnel
 Date: "2022"
