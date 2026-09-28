@@ -1,6 +1,7 @@
 ---
 Titre: Visite du musée Hombroich suivi d'une visite de Wuppertal.
-category: article
+description: <p></p>
+draft: true
 layout: layout2.vto
 sections:
   - type: text
