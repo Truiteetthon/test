@@ -1,7 +1,6 @@
 ---
 Titre: Abbaye en Belgique
 description: "<p>Architecte : Dom Hans van der Laan</p>"
-draft: false
 annee: "2026"
 lieu: Belgique
 layout: layout2.vto
@@ -32,3 +31,4 @@ sections:
   - type: text
     photo: /images/doc06426120260921150228.jpg
 ---
+test
