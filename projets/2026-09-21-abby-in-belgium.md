@@ -1,7 +1,7 @@
 ---
-Titre: Abbye in Belgium
-category: article
-description: "Architecte : Dom Hans van der Laan"
+Titre: Abbaye en Belgique
+description: "<p>Architecte : Dom Hans van der Laan</p>"
+draft: false
 annee: "2026"
 lieu: Belgique
 layout: layout2.vto
