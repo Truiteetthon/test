@@ -1,7 +1,7 @@
 ---
 Titre: Jardin de silice
 description: <p></p>
-draft: true
+draft: false
 annee: "2025"
 lieu: Val-David, Québec, Canada
 sections:
