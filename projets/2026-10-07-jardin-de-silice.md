@@ -13,4 +13,6 @@ sections:
     photo: /images/000051630036.jpg
   - type: text
     photo: /images/000051630037.jpg
+  - type: text
+    photo: /images/Document.jpg
 ---
